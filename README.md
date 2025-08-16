@@ -23,7 +23,6 @@ It uses a **ResNet18** model pre-trained on ImageNet and fine-tunes it on a cura
 
 > ⚠️ **Note:** Due to resource and training time constraints, the notebook uses only a **subset of classes** (some classes were removed) from the original dataset.
 
-Of course. Here are the updated parts of the markdown including the TTA accuracy.
 
 ---
 ## ✨ Key Features
