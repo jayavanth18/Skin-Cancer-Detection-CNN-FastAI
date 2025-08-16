@@ -125,27 +125,26 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 <div align="center">
 
-**[A. Jayavanth](https://github.com/jayavanth18)**
-<br>
-[![GitHub](https://img.shields.io/badge/GitHub-jayavanth18-black?logo=github)](https://github.com/jayavanth18)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/jayavanth18/)
+### 🔹 [A. Jayavanth](https://github.com/jayavanth18)
+
+[![GitHub](https://img.shields.io/badge/GitHub-jayavanth18-181717?style=for-the-badge\&logo=github)](https://github.com/jayavanth18)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jayavanth18-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/jayavanth18/)
 
 ---
 
-**[Surya](https://github.com/surya2508)**
-<br>
-[![GitHub](https://img.shields.io/badge/GitHub-surya2508-black?logo=github)](https://github.com/surya2508)
+### 🔹 [Surya](https://github.com/surya2508)
+
+[![GitHub](https://img.shields.io/badge/GitHub-surya2508-181717?style=for-the-badge\&logo=github)](https://github.com/surya2508)
 
 ---
 
-**[Nayana](https://github.com/nayana-3110)**
-<br>
-[![GitHub](https://img.shields.io/badge/GitHub-nayana--3110-black?logo=github)](https://github.com/nayana-3110)
+### 🔹 [Nayana](https://github.com/nayana-3110)
 
-<br>
+[![GitHub](https://img.shields.io/badge/GitHub-nayana--3110-181717?style=for-the-badge\&logo=github)](https://github.com/nayana-3110)
 
-⭐ If this repo helped you, please consider giving it a **star**!
+---
+
+⭐️ If you found this repository helpful, please consider giving it a **star**!
 
 </div>
-
 ---
