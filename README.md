@@ -38,6 +38,18 @@ The workflow covers everything from **data collection, preprocessing, augmentati
 
 ---
 
+## 📂 Project Structure
+
+```plaintext
+Skin-Cancer-Detection-CNN-FastAI/
+├── code.ipynb                  # Main Jupyter Notebook
+├── dataset.zip                 # Skin cancer dataset
+├── literature_review.pdf        # Background research
+└── README.md
+```
+
+---
+
 ## 🧠 Technical Details
 
 * **Model Architecture**: ResNet18
