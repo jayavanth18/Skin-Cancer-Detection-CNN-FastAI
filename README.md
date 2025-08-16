@@ -109,5 +109,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 </div>  
 
 ---
-
-Do you also want me to write a **one-line tagline for GitHub repo (the short description that shows under repo name)**, optimized for recruiters/professors?
