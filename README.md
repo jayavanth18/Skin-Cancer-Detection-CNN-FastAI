@@ -23,19 +23,20 @@ It uses a **ResNet18** model pre-trained on ImageNet and fine-tunes it on a cura
 
 > ⚠️ **Note:** Due to resource and training time constraints, the notebook uses only a **subset of classes** (some classes were removed) from the original dataset.
 
----
+Of course. Here are the updated parts of the markdown including the TTA accuracy.
 
+---
 ## ✨ Key Features
 
-| Feature                             | Description                                                                   |
-| :---------------------------------- | :---------------------------------------------------------------------------- |
-| 🧠 **Transfer Learning**            | Pre-trained **ResNet18** model fine-tuned with FastAI best practices.         |
-| ⚡ **Simplified Workflow**           | FastAI abstracts away boilerplate PyTorch code for faster prototyping.        |
-| 🔄 **Data Augmentation**            | Uses `aug_transforms` (flips, rotation, zoom, warp) for generalization.       |
-| 📊 **Comprehensive Evaluation**     | Includes **Confusion Matrix**, **Precision-Recall Curve**, and **ROC Curve**. |
-| 🎯 **Prediction Demo**              | Load the trained model and run single-image predictions with probabilities.   |
-| 🧪 **Test-Time Augmentation (TTA)** | Improves inference robustness by averaging augmented predictions.             |
-| 📈 **Learning Rate Finder**         | Automatically selects the best learning rate with `learn.lr_find()`.          |
+| Feature | Description |
+| :--- | :--- |
+| 🧠 **Transfer Learning** | Pre-trained **ResNet18** model fine-tuned with FastAI best practices. |
+| ⚡ **Simplified Workflow** | FastAI abstracts away boilerplate PyTorch code for faster prototyping. |
+| 🔄 **Data Augmentation** | Uses `aug_transforms` (flips, rotation, zoom, warp) for generalization. |
+| 📊 **Comprehensive Evaluation** | Includes **Confusion Matrix**, **Precision-Recall Curve**, and **ROC Curve**. |
+| 🎯 **Prediction Demo** | Load the trained model and run single-image predictions with probabilities. |
+| 🧪 **Test-Time Augmentation (TTA)** | **Achieved 80.68% accuracy** by averaging predictions over augmented images. |
+| 📈 **Learning Rate Finder** | Automatically selects the best learning rate with `learn.lr_find()`. |
 
 ---
 
