@@ -124,34 +124,26 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## 👨‍💻 Authors
 
 <div align="center">
-<table border="0" cellspacing="0" cellpadding="10">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/jayavanth18">
-        <b>A. Jayavanth</b>
-      </a>
-      <br><br>
-      <a href="https://github.com/jayavanth18"><img src="https://img.shields.io/badge/GitHub-jayavanth18-black?logo=github" alt="GitHub"/></a>
-      <a href="https://www.linkedin.com/in/jayavanth18/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn"/></a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/surya2508">
-        <b>Surya</b>
-      </a>
-      <br><br>
-      <a href="https://github.com/surya2508"><img src="https://img.shields.io/badge/GitHub-surya2508-black?logo=github" alt="GitHub"/></a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/nayana-3110">
-        <b>Nayana</b>
-      </a>
-      <br><br>
-      <a href="https://github.com/nayana-3110"><img src="https://img.shields.io/badge/GitHub-nayana--3110-black?logo=github" alt="GitHub"/></a>
-    </td>
-  </tr>
-</table>
+
+**[A. Jayavanth](https://github.com/jayavanth18)**
+<br>
+[![GitHub](https://img.shields.io/badge/GitHub-jayavanth18-black?logo=github)](https://github.com/jayavanth18)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/jayavanth18/)
+
+---
+
+**[Surya](https://github.com/surya2508)**
+<br>
+[![GitHub](https://img.shields.io/badge/GitHub-surya2508-black?logo=github)](https://github.com/surya2508)
+
+---
+
+**[Nayana](https://github.com/nayana-3110)**
+<br>
+[![GitHub](https://img.shields.io/badge/GitHub-nayana--3110-black?logo=github)](https://github.com/nayana-3110)
 
 <br>
+
 ⭐ If this repo helped you, please consider giving it a **star**!
 
 </div>
