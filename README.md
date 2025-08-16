@@ -15,12 +15,13 @@
 
 ## 📌 Overview
 
-This project implements a **Convolutional Neural Network (CNN)** with **FastAI** and a **PyTorch backend** to classify skin cancer lesions.
-It uses a **ResNet18** model pre-trained on ImageNet and fine-tunes it on dermatoscopic images.
+This project implements a **Convolutional Neural Network (CNN)** using **FastAI** and a **PyTorch backend** to classify skin cancer lesions from dermatoscopic images.
 
-The workflow covers everything from **data collection, preprocessing, augmentation, training, and evaluation** to detailed performance analysis.
+It uses a **ResNet18** model pre-trained on ImageNet and fine-tunes it on a curated subset of the **Skin Cancer ISIC** dataset.
 
 > ⚠️ **Disclaimer:** This project is for **educational & research purposes only**. It is *not* a substitute for professional medical diagnosis.
+
+> ⚠️ **Note:** Due to resource and training time constraints, the notebook uses only a **subset of classes** (some classes were removed) from the original dataset.
 
 ---
 
@@ -43,10 +44,19 @@ The workflow covers everything from **data collection, preprocessing, augmentati
 ```plaintext
 Skin-Cancer-Detection-CNN-FastAI/
 ├── code.ipynb                  # Main Jupyter Notebook
-├── dataset.zip                 # Skin cancer dataset
-├── literature_review.pdf        # Background research
-└── README.md
+├── README.md                   # Project documentation
+├── literature_review.pdf       # Background research
 ```
+
+---
+
+## 📦 Dataset
+
+We use the publicly available **Skin Cancer ISIC** dataset from Kaggle:
+🔗 [Skin Cancer 9 Classes (ISIC) - Kaggle](https://www.kaggle.com/datasets/nodoubttome/skin-cancer9-classesisic)
+
+**Important Note:**
+To reduce training time and manage resources, the notebook does **not use all 9 classes**. One or more classes were **intentionally excluded** during training. You can modify the notebook to include all classes if needed.
 
 ---
 
@@ -58,6 +68,7 @@ Skin-Cancer-Detection-CNN-FastAI/
 * **Training Strategy**: `fine_tune` + `fit_one_cycle`
 * **Metrics**: Accuracy, Precision-Recall, ROC-AUC
 * **Visualization**: Confusion Matrix, Top Losses, Optimal LR plots
+* **Dataset Subsetting**: Some classes from the original ISIC dataset were excluded for practical training duration.
 
 ---
 
@@ -67,6 +78,7 @@ Skin-Cancer-Detection-CNN-FastAI/
 
 * Python 3.9+
 * Jupyter Notebook or JupyterLab
+* Kaggle API (for downloading dataset if not manually done)
 
 ### Installation
 
@@ -78,11 +90,13 @@ cd Skin-Cancer-Detection-CNN-FastAI
 # 2. Install dependencies
 pip install fastai timm matplotlib scikit-learn
 
-# 3. Unzip dataset
-unzip skincancer1.zip
+# 3. Download dataset (manually or via Kaggle CLI)
+# Example using Kaggle CLI:
+kaggle datasets download -d nodoubttome/skin-cancer9-classesisic
+unzip skin-cancer9-classesisic.zip
 
 # 4. Launch Jupyter
-jupyter notebook your_notebook_name.ipynb
+jupyter notebook code.ipynb
 ```
 
 ---
